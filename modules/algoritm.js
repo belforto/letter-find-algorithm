@@ -29,7 +29,7 @@ const collectionAlgo = async (inputFileName) => {
 	loopMain: while (true) {
 		//find direction
 		direction = findDirection(position, normalizedArray, direction);
-		logger.warn(`Changing direction going -> ${direction} `);
+		logger.info(`Changing direction going -> ${direction} `);
 
 		// follow the direction
 		loopDirection: while (true) {
